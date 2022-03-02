@@ -7,9 +7,18 @@
     <title>My Resume</title>
     <link
       rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/brands.min.css"
+  />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"
+      integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <style>
       .header {
@@ -38,7 +47,6 @@
       .flex-box-row > div {
         margin-right: 15px;
         padding: 10px;
-
       }
 
       .flex-box-row > div {
@@ -46,10 +54,14 @@
         padding: 10px;
       }
 
-      .button{
-        padding:20px;
-        background-color:blue;
+      .button {
+        padding: 20px;
+        background-color: blue;
         border-radius: 10px;
+      }
+      .image{
+        width: 10px;
+        height:10px
       }
     </style>
   </head>
@@ -92,43 +104,104 @@
         velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum."
-      </p>      
+      </p>
     </div>
     <br />
-    <div class="flex-box-row" style="padding:50px; justify-content: center;">
-    <div><i class="fa-brands fa-twitter inlineBock"></i></div>
-    <div> <i class="fa-brands fa-linkedin-in"></i></div>
-    <div><i class="fa-brands fa-github"></i></div>
+    <div class="flex-box-row" style="padding: 50px; justify-content: center;">
+      <div><i class="fa-brands fa-twitter inlineBock"></i></div>
+      <div><i class="fa-brands fa-linkedin-in"></i></div>
+      <div><i class="fa-brands fa-github"></i></div>
     </div>
-  
-<br />
-    <div class="flex-box-column" style="background-color: blue">
-      <div><h4>My projects</h4></div>
-      <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+
+    <br />
+    <div class="flex-box-column" style="background-color: blue;">
+      <div>
+        <h4>My projects</h4>
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.</div>
-
-  
-
-    <div class="flex-box-row" style="text-align: center; padding:50px; justify-content: space-evenly;">
-      <div style="background-color: white;">
-        <p>Project 1</p>
-        <p>Lorem ipsum dolor sit amet</p>
-        <p class="button">View Demo</p>
+        commodo consequat.
       </div>
-      <div style="background-color: white;">
-        <p>Project 2</p>
-        <p>Lorem ipsum dolor sit amet</p>
-        <p class="button">View Demo</p>
-      </div>
-                <div style="background-color: white;">
-        <p>Project 3</p>
-        <p>Lorem ipsum dolor sit amet</p>
-        <p class="button">View Demo</p>
+
+      <div
+        class="flex-box-row"
+        style="
+          text-align: center;
+          padding: 50px;
+          justify-content: space-evenly;
+        "
+      >
+        <div style="background-color: white;">
+          <p>Project 1</p>
+          <p>Lorem ipsum dolor sit amet</p>
+          <p class="button">View Demo</p>
+        </div>
+        <div style="background-color: white;">
+          <p>Project 2</p>
+          <p>Lorem ipsum dolor sit amet</p>
+          <p class="button">View Demo</p>
+        </div>
+        <div style="background-color: white;">
+          <p>Project 3</p>
+          <p>Lorem ipsum dolor sit amet</p>
+          <p class="button">View Demo</p>
+        </div>
       </div>
     </div>
+    <br />
 
-   
+    <div class="flex-box-column" ">
+      <div>
+        <h4>Why I'm Different </h4>
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore.
+      </div>
+
+      <div
+        class="flex-box-row"
+        style="
+          text-align: center;
+          padding: 50px;
+          justify-content: space-evenly;
+        "
+      >
+        <div class="flex-box-row">
+          <div>
+            <div><i class="fa fa-brain" style="font-size:3em;"></i></div>
+          </div>
+          <div style="text-align: left;">
+          <p>Quick learner</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore.</p>
+          </div>
+        </div>
+
+        <div class="flex-box-row">
+          <div>
+            <div><i class="fa fa-brain" style="font-size:3em;"></i></div>
+          </div>
+          <div style="text-align: left;">
+          <p>Quick learner</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore.</p>
+          </div>
+        </div>
+
+        <div class="flex-box-row">
+          <div>
+            <div><i class="fa fa-brain" style="font-size:3em;"></i></div>
+          </div>
+          <div style="text-align: left;">
+          <p>Quick learner</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore.</p>
+          </div>
+        </div>
+        
+    </div>
   </body>
 </html>
